@@ -3,6 +3,14 @@ slideshow-component {
   display: flex;
   flex-direction: column;
 }
+slideshow-componet .button::after slideshow-component .button::before{
+  content: none;
+  display: none;
+}
+
+slideshow-component .button {
+  color: white;
+}
 
 @media screen and (max-width: 989px) {
   .no-js slideshow-component .slider {
@@ -23,6 +31,23 @@ slideshow-component .slideshow.banner {
   display: flex;
   flex-direction: column;
   visibility: visible;
+}
+
+.slideshow__text-custom {
+  background: transparent;
+  color: white;
+}
+
+.slideshow__text-custom .banner__heading {
+  color: white;
+}
+
+.slideshow__controls--custom {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  color: white;
 }
 
 @media screen and (max-width: 749px) {
@@ -127,7 +152,7 @@ slideshow-component .slideshow.banner {
 
 @media screen and (min-width: 750px) {
   .slideshow__controls {
-    position: relative;
+    /* position: relative; */
   }
 }
 
