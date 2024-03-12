@@ -9,7 +9,7 @@ slideshow-componet .button::after slideshow-component .button::before{
 }
 
 slideshow-component .button {
-  color: white;
+  color: black;
 }
 
 @media screen and (max-width: 989px) {
