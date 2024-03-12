@@ -16,12 +16,30 @@
 .rich-text__blocks {
   width: 100%;
 }
+.photos-container{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.photos-container img{
+  width: 100%;
+  object-fit: cover;
+aspect-ratio: 16/9;
+height: 250px;
+}
 
 @media screen and (min-width: 750px) {
   .rich-text__wrapper {
     width: 100%;
-  }
 
+  }
+  .photos-container img{
+    height: 350px;
+  }
+.photos-container{
+  flex-direction: row;
+}
   .rich-text__wrapper--left {
     justify-content: flex-start;
   }
