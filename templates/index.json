@@ -3,6 +3,23 @@
     "slideshow_d6Bcdb": {
       "type": "slideshow",
       "blocks": {
+        "slide_tXHqjM": {
+          "type": "slide",
+          "settings": {
+            "heading": "Image slide",
+            "heading_size": "h1",
+            "subheading": "Tell your brand's story through images",
+            "button_label": "Button label",
+            "link": "",
+            "button_style_secondary": false,
+            "box_align": "middle-center",
+            "show_text_box": true,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "scheme-1",
+            "text_alignment_mobile": "center"
+          }
+        },
         "slide_G3EgKT": {
           "type": "slide",
           "settings": {
@@ -57,6 +74,7 @@
         }
       },
       "block_order": [
+        "slide_tXHqjM",
         "slide_G3EgKT",
         "slide_hrMXrY",
         "slide_MUN8YN"
@@ -148,7 +166,7 @@
         "heading_size": "h1",
         "blog": "news",
         "post_limit": 4,
-        "columns_desktop": 3,
+        "columns_desktop": 4,
         "color_scheme": "",
         "show_image": true,
         "show_date": false,
