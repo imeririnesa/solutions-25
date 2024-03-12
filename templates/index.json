@@ -144,7 +144,7 @@
     "featured_blog_KUzEhx": {
       "type": "featured-blog",
       "settings": {
-        "heading": "Blog posts",
+        "heading": "<strong>Blog<\/strong>",
         "heading_size": "h1",
         "blog": "",
         "post_limit": 3,
