@@ -171,25 +171,22 @@
         "text_iGiGng": {
           "type": "text",
           "settings": {
-            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.<\/p>"
+            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.<\/p>",
+            "text_alignment": "left"
           }
         },
-        "button_6K48VF": {
-          "type": "button",
+        "image_kYXMyb": {
+          "type": "image",
           "settings": {
-            "button_label": "Button label",
-            "button_link": "",
-            "button_style_secondary": false,
-            "button_label_2": "",
-            "button_link_2": "",
-            "button_style_secondary_2": false
+            "photo_1": "shopify:\/\/shop_images\/photo2.jpg",
+            "photo_2": "shopify:\/\/shop_images\/photo1.jpg"
           }
         }
       },
       "block_order": [
         "heading_EpiYYq",
         "text_iGiGng",
-        "button_6K48VF"
+        "image_kYXMyb"
       ],
       "settings": {
         "desktop_content_position": "center",
