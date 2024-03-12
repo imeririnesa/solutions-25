@@ -146,8 +146,8 @@
       "settings": {
         "heading": "<strong>Blog<\/strong>",
         "heading_size": "h1",
-        "blog": "",
-        "post_limit": 3,
+        "blog": "news",
+        "post_limit": 4,
         "columns_desktop": 3,
         "color_scheme": "",
         "show_image": true,
