@@ -11,7 +11,7 @@
             "heading_size": "h1",
             "subheading": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
             "button_label": "Lorem Ipsum",
-            "link": "",
+            "link": "shopify:\/\/collections\/all",
             "button_style_secondary": false,
             "box_align": "middle-center",
             "show_text_box": true,
