@@ -145,7 +145,8 @@ body:has(.section-header .drawer-menu) .announcement-bar-section .page-width {
   .header:not(.drawer-menu).page-width {
     padding-left: 5rem;
     padding-right: 5rem;
-    
+    position: absolute;
+    color: white;
   }
 
   .page-width--narrow {
@@ -2482,7 +2483,7 @@ product-info .loading__spinner:not(.hidden) ~ *,
 
 .header__heading-link .h2 {
   line-height: 1;
-  color: rgba(var(--color-foreground), 0.75);
+  color: white;
 }
 
 .header__heading-logo {
@@ -2559,7 +2560,7 @@ product-info .loading__spinner:not(.hidden) ~ *,
 }
 
 .header__icon {
-  color: rgb(var(--color-foreground));
+  color: white;
 }
 
 .header__icon span {
@@ -2817,7 +2818,7 @@ details[open] > .header__submenu {
 .header__menu-item {
   padding: 1.2rem;
   text-decoration: none;
-  color: rgba(var(--color-foreground), 0.75);
+  color: white;
 }
 
 .header__menu-item:hover {
@@ -2847,7 +2848,7 @@ details[open] > .header__menu-item .icon-caret {
 
 .header__active-menu-item {
   transition: text-decoration-thickness var(--duration-short) ease;
-  color: rgb(var(--color-foreground));
+  color: white;
   text-decoration: underline;
   text-underline-offset: 0.3rem;
 }
