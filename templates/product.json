@@ -105,7 +105,7 @@
     "featured_collection_aJWdXM": {
       "type": "featured-collection",
       "settings": {
-        "title": "Related products",
+        "title": "<strong>Related products<\/strong>",
         "heading_size": "h1",
         "description": "",
         "show_description": false,
