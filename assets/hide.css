@@ -1,149 +1,68 @@
 .contact-and-photo {
+    display: flex;
+    width: 100%;
+    gap: 10px;
+    background-color: white;
+    color: black !important;
+    border-radius: 20px;
+    padding: 2rem;
+    margin: 100px auto;
+    max-width: 1200px;
+}
 
-    display: 
-    flex;
-    
-    width: 
-    100%;
-    
-    gap: 
-    10px;
-    
-    background-color: 
-    white;
-    
-    color: 
-    black !important;
-    
-    border-radius: 
-    20px;
-    
-    padding: 
-    2rem;
-    
-    /* remove those two */
-    
-    max-width: 
-    1200px;
-    
-    margin: 
-    0 auto; 
-    
+.contact-info {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.contact-photo {
+    width: 100%;
+}
+
+.contact-photo img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.contact-content {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.contact-content h2 {
+    font-size: 40px;
+    letter-spacing: 1px;
+    font-weight: 600;
+    margin: 0;
+    margin-bottom: 10px;
+}
+
+.contact-content__description {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+
+}
+.contact-content__description p{
+    margin: 0;
+}
+
+.contact-content__description span {
+    width: 20px;
+    height: 20px;
+}
+
+.contact-content__description > span > svg {
+    height: 100%;
+    width: 100%;
+}
+@media (max-width:1000px) {
+    .contact-and-photo {
+    flex-direction: column;
+    max-width: 80%;
     }
-    
-    
-    
-    .contact-info {
-    
-    width: 
-    50%;
-    
-    display: 
-    flex;
-    
-    flex-direction: 
-    column;
-    
-    gap: 
-    40px;
-    
-    }
-    
-    
-    
-    .contact-photo {
-    
-    width: 
-    50%;
-    
-    }
-    
-    
-    
-    .contact-photo 
-    img {
-    
-    height: 
-    100%;
-    
-    width: 
-    100%;
-    
-    object-fit: 
-    cover;
-    
-    }
-    
-    
-    
-    .contact-content {
-    
-    display: 
-    flex;
-    
-    flex-direction: 
-    column;
-    
-    gap: 
-    20px;
-    
-    }
-    
-    
-    
-    .contact-content 
-    h2 {
-    
-    font-size: 
-    40px;
-    
-    letter-spacing: 
-    1px;
-    
-    font-weight: 
-    600;
-    
-    }
-    
-    
-    
-    .contact-content__description {
-    
-    display: 
-    flex;
-    
-    gap: 
-    20px;
-    
-    align-items: 
-    center;
-    
-    }
-    
-    
-    
-    .contact-content__description
-    span {
-    
-    width: 
-    20px;
-    
-    height: 
-    20px;
-    
-    }
-    
-    
-    
-    .contact-content__description
-    > 
-    span > 
-    svg {
-    
-    height: 
-    100%;
-    
-    width: 
-    100%;
-    
     }
