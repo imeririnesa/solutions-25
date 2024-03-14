@@ -160,6 +160,38 @@
         "padding_bottom": 36
       }
     },
+    "example_LkxYUt": {
+      "type": "example",
+      "blocks": {
+        "img_text_F4j3zk": {
+          "type": "img-text",
+          "settings": {
+            "title": "Lorem ipsum dolor sit amet,consectetur adipiscing elit, sed do"
+          }
+        },
+        "img_text_cBUzWA": {
+          "type": "img-text",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/free-blue-save-instagram-bookmark-icon-18321-thumb_c38bb6c4-1bf9-4761-a4a3-be0d5e1b1ed1.png",
+            "title": "Lorem ipsum dolor sit amet,consectetur adipiscing elit, sed do"
+          }
+        },
+        "img_text_PAJVci": {
+          "type": "img-text",
+          "settings": {
+            "title": "Lorem ipsum dolor sit amet,consectetur adipiscing elit, sed do"
+          }
+        }
+      },
+      "block_order": [
+        "img_text_F4j3zk",
+        "img_text_cBUzWA",
+        "img_text_PAJVci"
+      ],
+      "settings": {
+        "title": "<strong>Why our product?<\/strong>"
+      }
+    },
     "rich_text_dkFbUb": {
       "type": "rich-text",
       "blocks": {
@@ -205,6 +237,7 @@
     "image_with_text_bqMRDt",
     "featured_collection_b7xbaR",
     "featured_blog_KUzEhx",
+    "example_LkxYUt",
     "rich_text_dkFbUb"
   ]
 }
