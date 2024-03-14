@@ -9,7 +9,22 @@
     margin: 100px auto;
     max-width: 1200px;
 }
+.contact-and-photo .button {
+    color: black;
 
+}
+.contact-and-photo .field{
+    margin-bottom: 10px;
+    border-radius: 8px;
+    
+}
+.contact-and-photo .field__input{
+    background-color: rgb(218, 217, 217);
+    border-radius: 8px;
+}
+.contact-and-photo .field::after,.contact-and-photo .field::before{
+    display: none; 
+}
 .contact-info {
     width: 100%;
     display: flex;

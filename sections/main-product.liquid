@@ -1,3 +1,28 @@
+<script defer="defer">
+  document.addEventListener('DOMContentLoaded', function() {
+    const headers = document.querySelectorAll('.header__menu-item');
+    headers.forEach(function(header) {
+      header.style.color = 'black';
+    });
+    const headersIcon = document.querySelectorAll('.header__icon');
+    headersIcon.forEach(function(icon) {
+      icon.style.color = 'black';
+    });
+    const headingLinks = document.querySelectorAll('.header__heading-link');
+
+    // Loop through each .header__heading-link element
+    headingLinks.forEach(link => {
+      // Select the h2 element inside the current .header__heading-link element
+      const h2Element = link.querySelector('span');
+      
+      // Change the color of the h2 element to black
+      if (h2Element) {
+        h2Element.style.color = 'black';
+      }
+    });
+  });
+</script>
+
 <section
   id="MainProduct-{{ section.id }}"
   class="section-{{ section.id }}-padding gradient color-{{ section.settings.color_scheme }}"
