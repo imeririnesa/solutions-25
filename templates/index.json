@@ -10,7 +10,7 @@
             "heading": "<strong>Mockup to empower your creative workflow<\/strong>",
             "heading_size": "h1",
             "subheading": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-            "button_label": "Lorem Ipsum",
+            "button_label": "Lorem ipsum",
             "link": "shopify:\/\/collections\/all",
             "button_label_2": "Lorem ipsum",
             "link_2": "shopify:\/\/collections",
@@ -166,38 +166,38 @@
         "padding_bottom": 36
       }
     },
-    "example_LkxYUt": {
-      "type": "example",
+    "customsection_K9V3bm": {
+      "type": "customsection",
       "blocks": {
-        "img_text_F4j3zk": {
-          "type": "img-text",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/checkmark-colorful-icon-symbol-premium-quality-vector-17403903.jpg",
-            "title": "Lorem ipsum dolor sit amet,consectetur adipiscing elit, sed do"
-          }
-        },
-        "img_text_cBUzWA": {
+        "img_text_EerURC": {
           "type": "img-text",
           "settings": {
             "image": "shopify:\/\/shop_images\/f3d48a1d.png",
-            "title": "Lorem ipsum dolor sit amet,consectetur adipiscing elit, sed do"
+            "title": "Lorem ipsum dolor sit amet, consectetur adiscing elit, sed do"
           }
         },
-        "img_text_PAJVci": {
+        "img_text_LNQfKH": {
+          "type": "img-text",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/checkmark-colorful-icon-symbol-premium-quality-vector-17403903.jpg",
+            "title": "Lorem ipsum dolor sit amet, consectetur adiscing elit, sed do"
+          }
+        },
+        "img_text_QimNg7": {
           "type": "img-text",
           "settings": {
             "image": "shopify:\/\/shop_images\/eps10-blue-three-dimensional-or-3d-cube-icon-in-simple-flat-trendy-style-isolated-on-white-background-vector_a908bfa7-978a-4d23-950c-2d3266aefa27.jpg",
-            "title": "Lorem ipsum dolor sit amet,consectetur adipiscing elit, sed do"
+            "title": "Lorem ipsum dolor sit amet, consectetur adiscing elit, sed do"
           }
         }
       },
       "block_order": [
-        "img_text_F4j3zk",
-        "img_text_cBUzWA",
-        "img_text_PAJVci"
+        "img_text_EerURC",
+        "img_text_LNQfKH",
+        "img_text_QimNg7"
       ],
       "settings": {
-        "title": "<strong>Why our product?<\/strong>"
+        "title": "<strong>Why our products?<\/strong>"
       }
     },
     "rich_text_dkFbUb": {
@@ -245,7 +245,7 @@
     "image_with_text_bqMRDt",
     "featured_collection_b7xbaR",
     "featured_blog_KUzEhx",
-    "example_LkxYUt",
+    "customsection_K9V3bm",
     "rich_text_dkFbUb"
   ]
 }
