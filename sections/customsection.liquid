@@ -1,0 +1,49 @@
+{{ 'customsection.css' | asset_url | stylesheet_tag }}
+
+<div class="how-it-works page-width">
+    <h2>{{ section.settings.title }}</h2>
+    <div class="image-and-text-block-holder">
+        {% for block in section.blocks %}
+            <div class="image-and-text-block">
+                <img src="{{ block.settings.image | image_url }}" width="100" height="100">
+                <p>{{ block.settings.title }}</p>
+            </div>
+        {% endfor %}
+    </div>
+</div>
+
+{% schema %}
+{
+    "name": "Why our products",
+    "settings": [
+        {
+            "type": "inline_richtext",
+            "id": "title",
+            "label": "Section title"
+        }
+    ],
+    "blocks": [
+        {
+            "type": "img-text",
+            "name": "Image and text",
+            "settings": [
+                {
+                    "type": "image_picker",
+                    "id": "image",
+                    "label": "block image"
+                },
+                {
+                    "type": "inline_richtext",
+                    "id": "title",
+                    "label": "Description"
+                }
+            ]
+        }
+    ],
+    "presets": [
+        {
+            "name": "Why our products"
+        }
+    ]
+}
+{% endschema %}
