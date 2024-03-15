@@ -217,8 +217,9 @@
               endif
             -%}
             {%- if card_product.variants.size > 1 or qty_rules -%}
-              <modal-opener data-modal="#QuickAdd-{{ card_product.id }}">
+              <modal-opener style="display: flex; gap: 10px; max-width: 100%;" data-modal="#QuickAdd-{{ card_product.id }}">
                 <button
+                  style="min-width: unset !important";
                   id="{{ product_form_id }}-submit"
                   type="submit"
                   name="add"
@@ -227,12 +228,57 @@
                   aria-labelledby="{{ product_form_id }}-submit title-{{ section_id }}-{{ card_product.id }}"
                   data-product-url="{{ card_product.url }}"
                 >
+
                   {{ 'products.product.choose_options' | t }}
                   {%- if horizontal_quick_add -%}
                     <span class="icon-wrap">{% render 'icon-arrow' %}</span>
                   {%- endif -%}
                   {%- render 'loading-spinner' -%}
                 </button>
+                <product-form style= "min-width: 50px" data-section-id="{{ section.id }}">
+                  {%- form 'product',
+                    card_product,
+                    id: product_form_id,
+                    class: 'form',
+                    novalidate: 'novalidate',
+                    data-type: 'add-to-cart-form'
+                  -%}
+                    <input
+                      type="hidden"
+                      name="id"
+                      value="{{ card_product.selected_or_first_available_variant.id }}"
+                      class="product-variant-id"
+                      {% if card_product.selected_or_first_available_variant.available == false %}
+                        disabled
+                      {% endif %}
+                    >
+                    <button
+                      id="{{ product_form_id }}-submit"
+                      type="submit"
+                      name="add"
+                      class="quick-add__submit button button--full-width button--secondary{% if horizontal_quick_add %} card--horizontal__quick-add{% endif %}"
+                      aria-haspopup="dialog"
+                      aria-labelledby="{{ product_form_id }}-submit title-{{ section_id }}-{{ card_product.id }}"
+                      aria-live="polite"
+                      data-sold-out-message="true"
+                      {% if card_product.selected_or_first_available_variant.available == false %}
+                        disabled
+                      {% endif %}
+                    >
+                      <div style="width: 30px;">
+                        {%- render "icon-cart" -%} 
+                      </div>
+
+                      <div style="transform: rotate(45deg); width: 30px; "class="sold-out-message hidden">
+                        {%- render "icon-plus" -%}
+                      </div>
+                      {%- if horizontal_quick_add -%}
+                        <div style="width: 30px;" class="icon-wrap">{% render 'icon-plus' %}</div>
+                      {%- endif -%}
+                      {%- render 'loading-spinner' -%}
+                    </button>
+                  {%- endform -%}
+                </product-form>
               </modal-opener>
               <quick-add-modal id="QuickAdd-{{ card_product.id }}" class="quick-add-modal">
                 <div
